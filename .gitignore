@@ -64,7 +64,6 @@ typings/
 
 #reports
 reports/*.html
-reports/*.json
 
 traces/
 
