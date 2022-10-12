@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "debug": "PWDEBUG=1 DEBUG=pw:api cucumber-js",
-    "test": "cucumber-js",
-    "docker": "docker run --rm --network host -v $(pwd):/work/ -w /work/ -it mcr.microsoft.com/playwright:latest /bin/bash"
+    "test": "cucumber-js"
   },
   "engines": {
     "node": ">=14"
